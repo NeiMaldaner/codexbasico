@@ -179,9 +179,18 @@
         overflow: hidden;
         color: var(--white);
         background:
-          linear-gradient(90deg, rgba(10, 12, 12, 0.88), rgba(10, 12, 12, 0.5) 45%, rgba(10, 12, 12, 0.12)),
-          url("https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=2400&q=82")
-            center / cover;
+          linear-gradient(90deg, rgba(10, 12, 12, 0.92), rgba(10, 12, 12, 0.7) 46%, rgba(10, 12, 12, 0.22)),
+          url("fotos/7aa53af1990f1f95ac41482a4dc4ecea.jpg"),
+          linear-gradient(135deg, #111719, #25382e 55%, #d8eadc);
+        background-position:
+          center,
+          right center,
+          center;
+        background-size:
+          cover,
+          auto min(86vh, 760px),
+          cover;
+        background-repeat: no-repeat;
       }
 
       .hero::after {
@@ -710,7 +719,14 @@
         }
 
         .hero {
-          background-position: 60% center;
+          background-position:
+            center,
+            center bottom,
+            center;
+          background-size:
+            cover,
+            cover,
+            cover;
         }
 
         .hero-inner {
