@@ -434,6 +434,17 @@
         gap: 18px;
       }
 
+      .footer-link {
+        color: inherit;
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 1px solid currentColor;
+      }
+
+      .footer-link:hover {
+        color: var(--blue);
+      }
+
       @media (max-width: 900px) {
         .nav-links {
           display: none;
@@ -744,7 +755,7 @@
 
     <footer>
       <div class="wrap footer-row">
-        <span>INEMA.CLUB Empresas</span>
+        <span><a class="footer-link" href="https://www.inema.club/" target="_blank" rel="noopener">INEMA.CLUB</a> Empresas</span>
         <span>Treinamento em IA para equipes, líderes e áreas de negócio.</span>
       </div>
     </footer>
